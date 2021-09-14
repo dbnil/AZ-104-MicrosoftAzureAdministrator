@@ -179,7 +179,7 @@ In this task, you will create an Azure Active Directory user, assign the RBAC ro
    ```powershell
    $scope = (Get-AzRoleAssignment -RoleDefinitionName 'Support Request Contributor (Custom)').Scope
 
-   Remove-AzRoleAssignment -ObjectId '[object_ID]' -RoleDefinitionName 'Support Request Contributor (Custom)' -Scope $scope
+   Remove-AzRoleAssignment -ObjectId '[20f67e2b-a0ca-4d43-97ed-88ee65f549b3]' -RoleDefinitionName 'Support Request Contributor (Custom)' -Scope $scope
    ```
 
 1. From the Cloud Shell pane, run the following to remove the custom role definition:
